@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-center {
+    justify-content: center !important;
+}
+
+.profile-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-image: url('imgs/my-photo.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.visit-button-div {
+    justify-content: end;
+}
+
+a {
+    all: unset;
+}
+
+.button {
+    transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 993px) {
+    .profile-div {
+        padding-bottom: 2rem;
+    }
+}
